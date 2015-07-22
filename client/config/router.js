@@ -12,10 +12,6 @@ Router.route('/', function () {
     this.render('home');
 });
 
-Router.route('/flower', function () {
-    this.render('flower');
-});
-
 Router.route('/addflower', function () {
     this.render('addFlower');
 });
@@ -26,6 +22,11 @@ Router.route('/signup', function () {
 
 Router.route('/biz', function () {
     this.render('biz');
+});
+
+Router.route('/flower/:_id', {
+  name: 'flower',
+  data: function() { return Flowers.findOne(this.params._id); }
 });
 
 /*

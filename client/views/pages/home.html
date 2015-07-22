@@ -50,6 +50,9 @@
 
     <div class="wrapper wrapper-content animated fadeInRight">
         <div class="row">
+            {{#each flowers}}
+                {{> myflower}}
+            {{/each}}
             <div class="col-md-3">
                 <div class="ibox">
                     <div class="ibox-content product-box">
@@ -107,6 +110,25 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</template>
+<template name="myflower">
+    <div>
+        <div class="col-md-3">
+            <a href="/flower/{{_id}}">
+            <div class="ibox">
+                <div class="ibox-content product-box">
+                    <div class="product-imitation">
+                        <img src="http://static3.shop.indiatimes.com/images/products/medium/B4378286/flowers-gifts/promise-day/two-dozen-red-rose-bouquet-v95.jpg">
+                    </div>
+                    <div class="product-desc">
+                        <span class="product-name">{{name}}</span>
+                        <span class="product-price">{{price}}</span>
+                    </div>
+                </div>
+            </div>
+            </a>
         </div>
     </div>
 </template>

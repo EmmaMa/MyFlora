@@ -17,6 +17,7 @@ Flowers.attachSchema(new SimpleSchema({
       'template': 'plain',
     }
   },
+  /*
   imageUrl: {
   	type: String,
   	max: 200,
@@ -65,6 +66,6 @@ Flowers.attachSchema(new SimpleSchema({
     autoform: {
       'label-type': 'stacked'
     }
-  },
+  },*/
 }));
 

@@ -19,6 +19,7 @@ Bizs.attachSchema(new SimpleSchema({
    },
    label: 'Password'
  },
+ /*
  business_name: {
    type: String,
    max: 200,
@@ -52,4 +53,5 @@ Bizs.attachSchema(new SimpleSchema({
    label: 'Website',
    type: 'url'
  }
+ */
 }));
