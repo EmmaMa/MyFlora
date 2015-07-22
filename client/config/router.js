@@ -8,15 +8,28 @@ Router.configure({
 // Example pages routes
 //
 
-Router.route('/pageOne', function () {
-    this.render('pageOne');
+Router.route('/', function () {
+    this.render('home');
 });
 
-Router.route('/pageTwo', function () {
-    this.render('pageTwo');
+Router.route('/flower', function () {
+    this.render('flower');
 });
 
+Router.route('/addflower', function () {
+    this.render('addFlower');
+});
+
+Router.route('/signup', function () {
+    this.render('signup');
+});
+
+Router.route('/biz', function () {
+    this.render('biz');
+});
+
+/*
 Router.route('/', function () {
     Router.go('pageOne');
 });
-
+*/
