@@ -6,9 +6,9 @@ Template["pageHeading"] = new Template("Template.pageHeading", (function() {
     "class": "row wrapper border-bottom white-bg page-heading"
   }, "\n        ", HTML.DIV({
     "class": "col-lg-12"
-  }, "\n            ", HTML.H2(Blaze.View("lookup:title", function() {
+  }, "\n            ", HTML.H2("\n                ", HTML.Raw('<img src="http://bestinspired.com/wp-content/uploads/2015/04/Flower-22.jpg" width="40">'), "\n                ", Blaze.View("lookup:title", function() {
     return Spacebars.mustache(view.lookup("title"));
-  })), "\n            ", HTML.OL({
+  }), "\n                ", HTML.Raw('<div class="navbar-header">\n                <a id="navbar-minimalize" class="minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>\n                <form role="search" class="navbar-form-custom" action="search_results">\n                    <div class="form-group">\n                        <input type="text" placeholder="Search for something..." class="form-control" name="top-search" id="top-search">\n                    </div>\n                </form>\n                </div>'), "\n                ", HTML.Raw("<!--{{#unless currentUser}}-->"), "\n                ", HTML.Raw('<ul class="nav navbar-top-links navbar-right">\n\n                    \n                <li>\n                    <a href="/create">\n                        <button type="button" class="btn btn-w-m btn-primary">Sign Up</button>\n                    </a>\n                    \n                </li>\n                <li>\n                    <a href="/create">\n                        <button type="button" class="btn btn-w-m btn-primary">Log In</button>\n                    </a>\n                    \n                </li>\n                </ul>'), "\n            "), "\n            \n            ", HTML.OL({
     "class": "breadcrumb"
   }, "\n                ", HTML.LI("\n                    ", HTML.A({
     href: function() {
@@ -26,7 +26,7 @@ Template["pageHeading"] = new Template("Template.pageHeading", (function() {
     "class": "active"
   }, "\n                    ", HTML.STRONG(Blaze.View("lookup:title", function() {
     return Spacebars.mustache(view.lookup("title"));
-  })), "\n                "), "\n            "), "\n        "), "\n    ");
+  })), "\n                "), "\n            "), "\n\n        "), "\n    ");
 }));
 
 })();

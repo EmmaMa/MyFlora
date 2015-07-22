@@ -178,6 +178,17 @@
       "hash": "d1840d3ba04c65ffade261f362e26699b7509706"
     },
     {
+      "path": "packages/insecure.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/packages/insecure.js?3dc9d4a2dad55999b5b15a447d57f3d5fb66b290",
+      "sourceMap": "packages/insecure.js.map",
+      "sourceMapUrl": "/packages/3dc9d4a2dad55999b5b15a447d57f3d5fb66b290.map",
+      "size": 1290,
+      "hash": "3dc9d4a2dad55999b5b15a447d57f3d5fb66b290"
+    },
+    {
       "path": "packages/mongo.js",
       "where": "client",
       "type": "js",
@@ -554,9 +565,9 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/common/template.footer.js?049501cf115b1d15911cfec38fd7bdca5626c275",
-      "size": 402,
-      "hash": "049501cf115b1d15911cfec38fd7bdca5626c275"
+      "url": "/client/views/common/template.footer.js?fa66d3042ed26f8bb9b8e4dbb813db6681973f58",
+      "size": 421,
+      "hash": "fa66d3042ed26f8bb9b8e4dbb813db6681973f58"
     },
     {
       "path": "app/client/views/common/template.ibox-tools.js",
@@ -581,18 +592,18 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/common/template.page-heading.js?f66bab67df4a0fe6ad50ddb25563826c1335b675",
-      "size": 1352,
-      "hash": "f66bab67df4a0fe6ad50ddb25563826c1335b675"
+      "url": "/client/views/common/template.page-heading.js?3747735857fe3f12658034f384b25013efb1e0b0",
+      "size": 2723,
+      "hash": "3747735857fe3f12658034f384b25013efb1e0b0"
     },
     {
       "path": "app/client/views/common/template.top-navbar.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/views/common/template.top-navbar.js?a45bc39b5b8e4047ddd15984d4a0b7ced53dd2ac",
-      "size": 1091,
-      "hash": "a45bc39b5b8e4047ddd15984d4a0b7ced53dd2ac"
+      "url": "/client/views/common/template.top-navbar.js?5bcd6827bfe1fc0901bf1c06e315fb61ef39e36a",
+      "size": 1396,
+      "hash": "5bcd6827bfe1fc0901bf1c06e315fb61ef39e36a"
     },
     {
       "path": "app/client/views/common/template.top-navigation.js",
@@ -622,6 +633,42 @@
       "hash": "15640a33a79a2d4a667ad1567c35c50b177907b6"
     },
     {
+      "path": "app/client/views/pages/template.addFlower.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/pages/template.addFlower.js?dc611b8f9b64b046d6939a6cb6c99124a3d651da",
+      "size": 1074,
+      "hash": "dc611b8f9b64b046d6939a6cb6c99124a3d651da"
+    },
+    {
+      "path": "app/client/views/pages/template.biz.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/pages/template.biz.js?fbf958559d8baa1d9990903762f3010ec5fb6a0d",
+      "size": 1056,
+      "hash": "fbf958559d8baa1d9990903762f3010ec5fb6a0d"
+    },
+    {
+      "path": "app/client/views/pages/template.flower.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/pages/template.flower.js?0aad5fc1ce27b62725bef86295fd2af9c4256ea6",
+      "size": 1065,
+      "hash": "0aad5fc1ce27b62725bef86295fd2af9c4256ea6"
+    },
+    {
+      "path": "app/client/views/pages/template.home.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/pages/template.home.js?b4ab3791b5e3b818d004d1c96687b5537c6a7341",
+      "size": 5374,
+      "hash": "b4ab3791b5e3b818d004d1c96687b5537c6a7341"
+    },
+    {
       "path": "app/client/views/pages/template.pageOne.js",
       "where": "client",
       "type": "js",
@@ -638,6 +685,15 @@
       "url": "/client/views/pages/template.pageTwo.js?da00b752f93789c4098c89f4a04140b26e0d49e1",
       "size": 781,
       "hash": "da00b752f93789c4098c89f4a04140b26e0d49e1"
+    },
+    {
+      "path": "app/client/views/pages/template.signup.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/client/views/pages/template.signup.js?b62fafd7e955a6b02ab282e29be1bc2ed3e141e7",
+      "size": 1065,
+      "hash": "b62fafd7e955a6b02ab282e29be1bc2ed3e141e7"
     },
     {
       "path": "app/client/views/layouts/template.main.js",
@@ -739,13 +795,22 @@
       "hash": "6b2ce1bc94d219bb73367ac6b932c0540425b4f9"
     },
     {
+      "path": "app/both/collection/flower.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/both/collection/flower.js?eab09758425cd887650061cc78bd8f1fd2300df5",
+      "size": 62,
+      "hash": "eab09758425cd887650061cc78bd8f1fd2300df5"
+    },
+    {
       "path": "app/client/config/router.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/client/config/router.js?edc141a02dc7b9c548f2c030714643ee54cffc07",
-      "size": 349,
-      "hash": "edc141a02dc7b9c548f2c030714643ee54cffc07"
+      "url": "/client/config/router.js?2f868d17969a52acb33dfa2a7bae69e20efbf862",
+      "size": 552,
+      "hash": "2f868d17969a52acb33dfa2a7bae69e20efbf862"
     },
     {
       "path": "app/client/startup/default.js",
